@@ -8,6 +8,7 @@ export default function Header() {
           <button className="headerButton" style={{ padding: "8px" }}>
             Home
           </button>
+          <input className="headerButton" type="text" placeholder="Search" />
           <button className="headerButton" style={{ padding: "8px" }}>
             Category
           </button>

@@ -18,18 +18,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.booksBody {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 20px;
-}
-
 header {
-  background-color: rgb(89, 169, 86);
+  background-color: rgb(66, 66, 66);
+  border-bottom: 1px solid white;
   padding: 20px;
   text-align: center;
-  /* max-width: 100vh; */
-  background: linear-gradient(90deg, #0091ad 0%, #fb007c 90%);
 }
 
 .headerButtons {
@@ -41,12 +34,5 @@ header {
 
 .headerButton {
   border-radius: 8px;
-  border: none;
-}
-
-.bookCards {
-  border: 1px solid white;
-  border-radius: 8px;
-  height: 100px;
-  width: 300px;
+  /* border: none; */
 }
