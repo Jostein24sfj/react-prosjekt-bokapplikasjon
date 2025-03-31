@@ -11,8 +11,8 @@ export default function Header({
 }) {
   return (
     <header>
-      <h1 className="headerText">
-        <Link to="/">Darkmode Gutendex</Link>
+      <h1 className="text-3xl font-bold">
+        <Link to="/">DarkTheme Gutendex</Link>
       </h1>
 
       <div className="flex w-full md:w-auto md:mt-0 ">
