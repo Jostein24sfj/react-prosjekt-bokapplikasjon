@@ -5,7 +5,7 @@ export default function BookItem({ book }) {
   if (!book) return null;
 
   return (
-    <li className="bg-gray-600 shadow-xl rounded-md p-4 flex justify-between">
+    <li className="bg-gray-700 shadow-xl rounded-md p-8 flex justify-between">
       <Link
         to={`/book/${book.id}`}
         className="text-lg font-semibold text-white"
