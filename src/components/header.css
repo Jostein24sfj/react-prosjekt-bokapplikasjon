@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(36, 36, 36);
+  border-bottom: 1px solid white;
+  padding: 20px;
+  text-align: center;
+}
+
+.headerText {
+  font-size: 28px;
+}
+
+.headerButtons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  border-radius: 16px;
+}
+
+.headerButton {
+  border-radius: 8px;
+  border: none;
+}
+
+.favorites {
+  display: flex;
+  align-items: center;
+}

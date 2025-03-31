@@ -1,8 +1,11 @@
+@import "tailwindcss";
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -18,21 +21,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-header {
-  background-color: rgb(66, 66, 66);
-  border-bottom: 1px solid white;
-  padding: 20px;
-  text-align: center;
-}
-
-.headerButtons {
-  display: flex;
-  justify-content: center;
-  gap: 12px;
-  border-radius: 16px;
-}
-
-.headerButton {
-  border-radius: 8px;
-  /* border: none; */
+body {
+  background-color: rgb(56, 56, 56);
 }
